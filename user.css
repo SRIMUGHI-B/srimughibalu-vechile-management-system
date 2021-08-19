@@ -1,0 +1,117 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: sans-serif;
+}
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar
+{
+    background-image: linear-gradient(to right, #6c757d,#3b6b77 );
+    padding: 0 !important;
+}
+.navbar-nav
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    color: azure !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.fa-bars
+{
+    color: azure;
+    font-size: 20px !important;
+}
+.navbar-toggler
+{
+    outline: none !important;
+}
+.navbar-brand
+{
+    color: azure !important;
+    font-weight: 600;
+}
+
+#banner
+{
+    background-image: url(Ford_EcoSport_Storm.jpg);
+    height: 500px;
+    width: 1519px;
+    opacity: 1;
+    color: rgb(0, 0, 0);
+    padding-top: 5%; 
+}
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+    text-align: center;
+}
+.sentence
+{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.title
+{
+    text-align: center;
+}
+
+.col-md-6
+{
+    div {
+        text-align:center;
+    }
+}
+.intro
+{
+    font-size: 40px;
+    margin-top: 100px;
+    text-align: right;
+}
+#car-list
+{
+    padding: 80px 0;
+}
+.car-list img
+{
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+}
+.car-list
+{
+    padding: 20px;
+}
+.car-list
+{
+    padding: 5px;
+    margin-top: 25px;
+    text-align: justify;
+    
+}
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .button1 {background-color: #4CAF50;}
